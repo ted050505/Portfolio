@@ -70,7 +70,7 @@ div {
 }
 
 #side-move {
-  background-color: rgb(134, 134, 134);
+  /* background-color: rgb(134, 134, 134); */
   width: 100%;
   height: 200px;
   position: absolute;
@@ -128,7 +128,7 @@ li {
 }
 
 #wrapper {
-  background-color: rgb(128, 255, 159);
+  /* background-color: rgb(128, 255, 159); */
   position: relative;
   text-align: left;
   width: 100%;
@@ -195,6 +195,15 @@ embed, iframe, img, object, video {
   -ms-transform: translate3d(0px, 0px, 0px);
   -o-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+}
+
+#logo-click {
+  width: 110px;
+  height: 47px;
+  position: absolute;
+  left: 0px;
+  top: 153px;
+  z-index: 21;
 }
 
 ::selection {
