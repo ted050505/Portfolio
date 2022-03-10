@@ -201,6 +201,15 @@ h2 {
   text-transform: uppercase;
 }
 
+.bio-contact {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .video {
   position: relative;
   height: 0;
