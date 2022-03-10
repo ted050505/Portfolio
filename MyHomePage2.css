@@ -147,8 +147,12 @@ li {
   padding: 50px 40px 0;
 }
 
-.post {
+.entry {
   padding: 150px 0 0 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 25px;
+  /* font-family: 'KoPub Batang', serif; */
 }
 
 #centertext {
@@ -170,6 +174,31 @@ h2 {
   margin: 70px 0 0 0;
   line-height: 25px;
   font-size: 11px;
+}
+
+.bio {
+  margin: 50px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.bio>h3 {
+  /* font-family: 'Leon Sans', 'KoPubDotumBold', serif; */
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: #111;
+  padding: 0 0 4px 0;
+  text-transform: uppercase;
+}
+
+.bio-des {
+  /* font-family: 'Leon Sans', 'KoPubDotumBold', serif; */
+  font-weight: 350;
+  font-size: 13px;
+  color: #111;
+  padding: 0 0 4px 0;
+  text-transform: uppercase;
 }
 
 .video {
