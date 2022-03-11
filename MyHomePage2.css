@@ -258,3 +258,87 @@ embed, iframe, img, object, video {
   background: #5b81ff;
   color: #fff;
 }
+
+
+@media (max-width: 680px) {
+  #conbox {
+    padding: 0 10px !important;
+  }
+
+  #search-button {
+    right: -30px;
+  }
+
+  #logo-click {
+    left: -30px;
+  }
+
+  #logo {
+    left: -30px;
+  }
+
+  #show-menu {
+    display: block;
+  }
+
+  #sidebars.show #show-menu {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  #sidebars.black #side-move,
+  #sidebars.show #side-move {
+    -webkit-transform: translate3d(0px, -70px, 0px);
+    -moz-transform: translate3d(0px, -70px, 0px);
+    -ms-transform: translate3d(0px, -70px, 0px);
+    -o-transform: translate3d(0px, -70px, 0px);
+    transform: translate3d(0px, -70px, 0px);
+  }
+
+  .side-con ul {
+    margin: 100px 15px 0;
+    line-height: 24px;
+    font-size: 11px;
+  }
+
+  .side-con li {
+    padding: 0 5px;
+  }
+
+
+  .entry {
+    margin: 0px 0 0 0;
+  }
+
+  .post {
+    padding: 0px 0 0 0;
+  }
+
+
+  #side-move {
+    background-color: #fff;
+    /* box-shadow: 0px 12px 30px 0 rgba(0,0,0,.1) !important;*/
+  }
+
+
+
+
+
+  #books {
+    position: relative;
+    width: 220px;
+    top: 0;
+    right: auto;
+    left: 10px;
+    padding: 0 0 30px 0;
+  }
+}
+
+
+p:empty:before {
+  content: none !important;
+  height: 0px;
+}
