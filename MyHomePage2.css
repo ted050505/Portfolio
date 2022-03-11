@@ -148,11 +148,15 @@ li {
 }
 
 .entry {
-  padding: 150px 0 0 0;
+  padding: 15px 0 0 0;
   margin: 0;
   font-size: 14px;
   line-height: 25px;
   /* font-family: 'KoPub Batang', serif; */
+}
+
+.postbox>div>iframe {
+    box-shadow: 2px 25px 40px 0 rgb(0 0 0 / 15%);
 }
 
 #centertext {
