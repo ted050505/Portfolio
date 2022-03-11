@@ -85,6 +85,12 @@
     url('/wp-content/themes/cmiscm/KoPubDotumBold.svg#KoPubDotum-medium') format('svg');
 }
 
+@font-face {
+  font-family: NanumBarunGothicOTF;
+  font-style: normal;
+  src: url('/font/NanumBarunGothic.otf');
+}
+
 html {
     margin:0;
     padding:0;
