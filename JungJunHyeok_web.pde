@@ -1,4 +1,4 @@
-ball [] bl = new ball[7000];
+ball [] bl = new ball[700];
 
 float d;
 
