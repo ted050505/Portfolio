@@ -365,10 +365,6 @@ embed, iframe, img, object, video {
     padding: 0 10px !important;
   }
 
-  #search-button {
-    right: -30px;
-  }
-
   #logo-click {
     left: -30px;
   }
@@ -407,7 +403,6 @@ embed, iframe, img, object, video {
   .side-con li {
     padding: 0 5px;
   }
-
 
   .entry {
     margin: 0px 0 0 0;
