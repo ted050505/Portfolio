@@ -352,6 +352,13 @@ embed, iframe, img, object, video {
   color: #fff;
 }
 
+#theCanvas {
+  width: 1000px;
+  margin: auto;
+  border: 3px solid black;
+  display: block;
+}
+
 
 @media (max-width: 680px) {
   #conbox {

@@ -4,6 +4,9 @@
 <Head>
     <title>JunHyeok Jung</title>
     <link rel="stylesheet" href="MyHomePage2.css">
+    <!-- <script src="//cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.js"></script> -->
+    <script type="text/javascript" src="processing.js"></script>
+
 </Head>
 
 <body>
@@ -59,34 +62,18 @@
         <div id="container">
             <div id="conbox">
                 <div id="centertext">
-                    <h2>Realtime Data Visualization</h2>
+                    <h2>Interaction Lab</h2>
                 </div>
                 <div id="post">
                     <div class="entry">
                         <div class="postbox">
                             <h3>VIDEO</h3>
-                            <div class="video" style="padding-bottom: 56.3%;">
-                                <iframe width="1000" height="563" src="https://www.youtube.com/embed/muIhBuFyE0Q"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
+                            <canvas id="theCanvas" data-processing-sources="JungJunHyeok_web.pde" tabindex="0" width="1280" height="720" style="image-rendering: -webkit-optimize-contrast !important;">
                         </div>
                         <div class="postbox">
                             <h3>DESCRIPTION</h3>
                             <div class="des">
                                 "로우 데이터 가공과 처리, 그래픽 작업, 사운드 작업을 한 데이터 시각화 입니다.
-                                데이터는 케플러 우주 망원경에서 파생된 데이터를 사용하였고, 그 중에서도 시간에 따라 변화하는 570여개 항성들의 광도 값을 나타낸 로우 데이터를 사용했습니다.
-                                수치로만 나열되어 있는 데이터의 심미성을 연구하고 본인만의 작업으로 표현을 해보고자, 노드 방식을 통해 실시간으로 그래픽을 출력 할 수 있는 비주얼 프로그래밍 언어 ‘TouchDesigner’ 를 활용했습니다.
-                                TouchDesigner 에서는 데이터를 parsing 하고 작업환경에 적합하게 만들기 위해 가공하는 과정과 가공된 데이터를 시각화하는 작업을 가졌습니다. 
-                                <br>
-                                <br>
-                                세부적으로 보면, 데이터를 프로그램이 반응 할 수 있는 최소 범위, 최대 범위로 수치를 ( 입력 받는 데이터 ) / 100 으로 치환했습니다. 그리고 치환된 데이터 값을 실시간 그래픽으로 출력하기 위해 일정한 간격으로 현재 데이터 값에서 다음 데이터 값을 순차적으로 처리하는 구조( lfo, math 노드사용 ) 를 제작했습니다. 작업에서 기본이 되는 그래픽 요소는 Noise( 그래픽 입자 ) 와 Feedback( 잔상 ) 입니다, 앞에서 먼저 만들어 놓은 그래픽 입자들을 Ramp 노드로 그래픽 패턴을 만들어 데이터 입력 값에 실시간으로 반응하는 파동 형태의 패턴을 제작하였습니다. 이 후, projection, transform 노드들을 통해 3가지 형태의 파동 모델을 만들었습니다.
-                                그리고 터치디자이너에서 출력한 3가지 형태로 만든 파동 모델을 활용해, 마치 항성의 외부에서 내부 핵까지들어갔다 나오며 미지의 세계를 탐험 하듯 연출 기법을 표현하고자, Adobe사의 After Effect 프로그램을 사용하였습니다.
-                                <br>
-                                <br>
-                                마지막으로 작,편곡 작업을 해왔기 때문에, 이번 작품에서도 시각화에 맞는 사운드를 제작했습니다. 사운드 제작은 Logic 프로그램을 사용하였고, 주로 사용된 가상악기에는 우주 과학의 경이로운 느낌을 자아내기 위해 다양한 FX 사운드가 있는 옴니스파이어와 피아노 가상악기인 키스케이프, 트릴리안 베이스를 사용했습니다. 이 외에는 여러 샘플링 작업을 통해 제작했습니다. 
-                                그리고 작품의 창작 의도와 최종적으로 제작된 데이터 시각화 영상 의도가 잘 어우러지게끔 하기 위해 작업의 가장 마지막 포스트 프로덕션 과정에서 완성됐습니다. 특히, 작품은 항성의 표면에서 내부 핵까지 탐험하는 듯한 연출을 나타내려 했기에 이러한 요소들의 효과를 극대화하기 위해 사운드 제작에도 신경을 많이 썼습니다."
                                 <br>
                                 <br>
                             </div>
