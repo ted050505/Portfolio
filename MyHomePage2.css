@@ -116,6 +116,7 @@ form {
 }
 
 a {
+    color:rgb(255, 255, 255);
     -webkit-transition: color .35s ease-out;
     -moz-transition: color .35s ease-out;
     transition: color .35s ease-out;
@@ -136,10 +137,12 @@ a {
   }
 
   body {
-    color:#666;
+    color:rgb(255, 255, 255);
+    /* color:#666; */
     font-family: "Leon Sans";
     font-weight: 300;
-    background-color: #fefefe;
+    background-color: #0c0c0c;
+    /* background-color: #fefefe; */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -149,6 +152,7 @@ div {
 }
 
 #sidebars {
+  background-color: rgba(70,70,70,0.3);
   position: fixed;
   width: 100%;
   height: 47px;
@@ -158,7 +162,8 @@ div {
 }
 
 #sidebars a {
-  color: rgba(0, 0, 0, 0.4);
+  /* color: rgba(0, 0, 0, 0.4); */
+  color: rgba(255, 255, 255, 95);
   text-decoration: none;
 }
 
