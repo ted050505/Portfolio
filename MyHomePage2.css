@@ -325,8 +325,8 @@ embed, iframe, img, object, video {
 #logo {
   position: absolute;
   left: 0px;
-  top: 153px;
-  width: 52px;
+  top: 159px;
+  width: 130px;
   height: 47px;
   z-index: 11;
   padding: 10px 19px 0 35px;
@@ -342,7 +342,7 @@ embed, iframe, img, object, video {
   width: 110px;
   height: 47px;
   position: absolute;
-  left: 0px;
+  left: 30px;
   top: 153px;
   z-index: 21;
 }
