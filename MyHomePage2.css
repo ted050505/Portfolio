@@ -273,7 +273,7 @@ h2 {
   padding-bottom: 2px;
   font-size: 32px;
   line-height: 42px;
-  color: #1c1c1c;
+  /* color: #1c1c1c; */
   font-family: 'Leon Sans', 'KoPubDotum', sans-serif;
   text-align: center;
 }
@@ -295,7 +295,8 @@ h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 15px;
-  color: #111;
+  /* color: #111; */
+  color: rgba(255,255,255,90);
   padding: 0 0 4px 0;
   text-transform: uppercase;
 }
@@ -304,7 +305,8 @@ h2 {
   /* font-family: 'Leon Sans', 'KoPubDotumBold', serif; */
   font-weight: 350;
   font-size: 13px;
-  color: #111;
+  /* color: #111; */
+  color: rgba(255,255,255,90);
   padding: 0 0 4px 0;
   text-transform: uppercase;
 }
