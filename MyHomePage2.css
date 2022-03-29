@@ -354,6 +354,12 @@ embed, iframe, img, object, video {
   z-index: 21;
 }
 
+.imoge {
+  left: 850px;
+  top: 210px;
+  position: absolute;
+}
+
 ::selection {
   background: #5b81ff;
   color: #fff;
