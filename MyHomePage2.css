@@ -1,13 +1,4 @@
 @font-face {
-  font-family: 'KoPubDotum';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/wp-content/themes/cmiscm/KoPubDotumBold.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/KoPubDotumBold.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/KoPubDotumBold.svg#KoPubDotum-medium') format('svg');
-}
-
-@font-face {
   /* font-family: NanumBarunGothicOTF; */
   font-family: 'NanumBarunGothicOTF';
   font-style: normal;
