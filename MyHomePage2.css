@@ -1,82 +1,4 @@
 @font-face {
-  font-family: 'Leon Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/wp-content/themes/cmiscm/leonsans-bold-webfont.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/leonsans-bold-webfont.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/leonsans-bold-webfont.svg#leonsans-bold') format('svg');
-}
-
-@font-face {
-  font-family: 'Leon Sans';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/wp-content/themes/cmiscm/leonsans-medium-webfont.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/leonsans-medium-webfont.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/leonsans-medium-webfont.svg#leonsans-medium') format('svg');
-}
-
-@font-face {
-  font-family: 'Leon Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/wp-content/themes/cmiscm/leonsans-regular-webfont.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/leonsans-regular-webfont.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/leonsans-regular-webfont.svg#leonsans-regular') format('svg');
-}
-
-@font-face {
-  font-family: 'Leon Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url('/wp-content/themes/cmiscm/leonsans-light-webfont.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/leonsans-light-webfont.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/leonsans-light-webfont.svg#leonsans-light') format('svg');
-}
-
-@font-face {
-  font-family: 'KoPub Batang';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.eot);
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.eot?#iefix) format('embedded-opentype'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.woff2) format('woff2'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.woff) format('woff'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Light.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'KoPub Batang';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.eot);
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.eot?#iefix) format('embedded-opentype'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.woff2) format('woff2'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.woff) format('woff'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Regular.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'KoPub Batang';
-  font-style: normal;
-  font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.eot);
-  src: url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.eot?#iefix) format('embedded-opentype'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.woff2) format('woff2'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.woff) format('woff'),
-    url(//fonts.gstatic.com/ea/kopubbatang/v3/KoPubBatang-Bold.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'KoPubDotum';
-  font-style: normal;
-  font-weight: 500;
-  src: url('/wp-content/themes/cmiscm/KoPubDotumMedium.woff') format('woff'),
-    url('/wp-content/themes/cmiscm/KoPubDotumMedium.woff2') format('woff2'),
-    url('/wp-content/themes/cmiscm/KoPubDotumMedium.svg#KoPubDotum-medium') format('svg');
-}
-
-@font-face {
   font-family: 'KoPubDotum';
   font-style: normal;
   font-weight: 700;
@@ -86,7 +8,8 @@
 }
 
 @font-face {
-  font-family: NanumBarunGothicOTF;
+  /* font-family: NanumBarunGothicOTF; */
+  font-family: 'NanumBarunGothicOTF';
   font-style: normal;
   src: url('../font/NanumBarunGothic.otf');
 }
