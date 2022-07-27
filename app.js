@@ -22,15 +22,16 @@ function onTick() {
         return;
     }
 }
-function onTick2() {
-    const span = text.querySelectorAll('span')[char];
-    span.classList.add('fadeOut');
-    char++
-    if (char === splitText.length) {
-        complete();
-        return;
-    }
-}
+
+// function onTick2() {
+//     const span = text.querySelectorAll('span')[char];
+//     span.classList.add('fadeOut');
+//     char++
+//     if (char === splitText.length) {
+//         complete();
+//         return;
+//     }
+// }
 
 function complete() {
     clearInterval(timer);

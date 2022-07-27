@@ -40,18 +40,18 @@ h1 {
 span {
   opacity: 0;
   transition: all 1.5s ease;
-  transform: translateY(30px);
-  display: inline-block;
+  /* transform: translateY(30px);
+  display: inline-block; */
 }
 
 span.fade {
   opacity: 1;
-  transform: translateY(0px);
-  color: rgb(44, 81, 161);
+  /* transform: translateY(0px);
+  color: rgb(255, 255, 255); */
 }
 
 span.fadeOut {
-  opacity: 5;
+  opacity: 1;
   transform: translateY(30px);
   color: rgb(152, 182, 230);
 }
