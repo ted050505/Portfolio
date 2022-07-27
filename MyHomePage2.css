@@ -29,6 +29,34 @@ form {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 100vh;
+}
+
+span {
+  opacity: 0;
+  transition: all 1.5s ease;
+  transform: translateY(30px);
+  display: inline-block;
+}
+
+span.fade {
+  opacity: 1;
+  transform: translateY(0px);
+  color: rgb(44, 81, 161);
+}
+
+span.fadeOut {
+  opacity: 5;
+  transform: translateY(30px);
+  color: rgb(152, 182, 230);
+}
+
+
 a {
     color:rgb(255, 255, 255);
     -webkit-transition: color .35s ease-out;
@@ -53,7 +81,8 @@ a {
   body {
     color:rgb(255, 255, 255);
     /* color:#666; */
-    font-family: "Leon Sans";
+    /* font-family: "Leon Sans"; */
+    font-family: "NanumBarunGothicOTF";
     font-weight: 300;
     background-color: #0c0c0c;
     /* background-color: #fefefe; */
