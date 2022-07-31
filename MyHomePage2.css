@@ -1,8 +1,10 @@
 @font-face {
-  /* font-family: NanumBarunGothicOTF; */
   font-family: NanumBarunGothicOTF, sans-serif;
   font-style: normal;
-  src: url('../font/NanumBarunGothic.otf');
+  src: url('font/NanumBarunGothic.otf');
+  src: url('font/NanumBarunGothic.otf');
+  src: url('font/NanumBarunGothic.eot');
+  src: url('font/NanumBarunGothic.woff');
 }
 
 html {
@@ -32,7 +34,7 @@ form {
 h1 {
   color: white;
   font-size: 4rem;
-  font-family: sans-serif;
+  font-family: NanumBarunGothicOTF, sans-serif;
   text-align: center;
   line-height: 100vh;
 }
