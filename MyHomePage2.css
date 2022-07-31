@@ -3,8 +3,8 @@
   font-style: normal;
   src: url('font/NanumBarunGothic.otf');
   src: url('font/NanumBarunGothic.otf');
-  src: url('font/NanumBarunGothic.eot');
-  src: url('font/NanumBarunGothic.woff');
+  src: url('font/NanumBarunGothic.eot') format('eot');
+  src: url('font/NanumBarunGothic.woff') format('woff');
 }
 
 html {
