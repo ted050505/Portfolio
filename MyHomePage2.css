@@ -1,5 +1,5 @@
 @font-face {
-  font-family: NanumBarunGothicOTF, NanumBarunGothic, sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   font-style: normal;
   src: url('font/NanumBarunGothic.otf');
   src: url('font/NanumBarunGothic.eot') format('eot');
@@ -36,7 +36,7 @@ form {
 h1 {
   color: white;
   font-size: 4rem;
-  font-family: NanumBarunGothicOTF, sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   text-align: center;
   line-height: 100vh;
 }
@@ -85,7 +85,7 @@ a {
   body {
     color:rgb(255, 255, 255);
     /* color:#666; */
-    /* font-family: "Leon Sans"; */
+    font-family: NanumBarunGothic, sans-serif;
     font-family: "NanumBarunGothicOTF";
     font-weight: 300;
     background-color: #0c0c0c;
@@ -101,7 +101,7 @@ div {
 .cls-1 {
   color:rgba(255, 255, 255);
   font-size: 390.02px;
-  font-family: NanumBarunGothicOTF-KSCpc-EUC-H, NanumBarunGothicOTF;
+  font-family: NanumBarunGothic, sans-serif;
 }
 
 #sidebars {
@@ -227,7 +227,7 @@ h2 {
   font-size: 32px;
   line-height: 42px;
   /* color: #1c1c1c; */
-  font-family: 'Leon Sans', 'KoPubDotum', sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   text-align: center;
 }
 
@@ -244,7 +244,7 @@ h2 {
 }
 
 .bio>h3 {
-  /* font-family: 'Leon Sans', 'KoPubDotumBold', serif; */
+  font-family: NanumBarunGothic, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 15px;
@@ -255,7 +255,7 @@ h2 {
 }
 
 .bio-des {
-  /* font-family: 'Leon Sans', 'KoPubDotumBold', serif; */
+  font-family: NanumBarunGothic, sans-serif;
   font-weight: 350;
   font-size: 13px;
   /* color: #111; */
