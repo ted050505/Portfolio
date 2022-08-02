@@ -39,6 +39,16 @@ h1 {
   line-height: 100vh;
 }
 
+h2 {
+  font-weight: 500;
+  padding-bottom: 2px;
+  font-size: 32px;
+  line-height: 42px;
+  /* color: #1c1c1c; */
+  font-family: NanumBarunGothic, sans-serif;
+  text-align: center;
+}
+
 h3 {
   font-family: NanumBarunGothic, sans-serif;
 }
@@ -52,6 +62,7 @@ span {
 
 span.fade {
   opacity: 1;
+
   /* transform: translateY(0px);
   color: rgb(255, 255, 255); */
 }
@@ -223,20 +234,14 @@ li {
   text-align: center;
 }
 
-h2 {
-  font-weight: 500;
-  padding-bottom: 2px;
-  font-size: 32px;
-  line-height: 42px;
-  /* color: #1c1c1c; */
-  font-family: NanumBarunGothic, sans-serif;
-  text-align: center;
-}
-
 .postbox {
   margin: 70px 0 0 0;
   line-height: 25px;
   font-size: 13px;
+}
+
+.des {
+  font-family: NanumBarunGothic, sans-serif;
 }
 
 .bio {
