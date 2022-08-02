@@ -39,6 +39,10 @@ h1 {
   line-height: 100vh;
 }
 
+h3 {
+  font-family: NanumBarunGothic, sans-serif;
+}
+
 span {
   opacity: 0;
   transition: all 1.5s ease;
