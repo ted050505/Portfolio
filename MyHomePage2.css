@@ -73,6 +73,9 @@ span.fadeOut {
   color: rgb(152, 182, 230);
 }
 
+.about_name {
+  font-family: NanumBarunGothic, sans-serif;
+}
 
 a {
     color:rgb(255, 255, 255);
