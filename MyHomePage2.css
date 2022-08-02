@@ -216,7 +216,6 @@ li {
   margin: 0;
   font-size: 14px;
   line-height: 25px;
-  /* font-family: 'KoPub Batang', serif; */
 }
 
 .postbox>div>iframe {
@@ -224,6 +223,7 @@ li {
 }
 
 #centertext {
+  font-family: NanumBarunGothic, sans-serif;
   font-size: 15px;
   text-align: center;
 }
