@@ -331,7 +331,13 @@ embed, iframe, img, object, video {
 .imoge {
   left: 800px;
   top: 210px;
-  position: absolute;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  /* position: absolute; */
 }
 
 ::selection {
