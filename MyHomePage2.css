@@ -337,7 +337,15 @@ embed, iframe, img, object, video {
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 15px;
-  /* position: absolute; */
+  opacity: 0.1;
+  transition: opacity 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: transform 2;
+  position: absolute;
+}
+
+.imoge:hover {
+  transform: translateY(-10px);
+  opacity: 1;
 }
 
 ::selection {
