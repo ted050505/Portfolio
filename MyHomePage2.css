@@ -311,7 +311,7 @@ embed, iframe, img, object, video {
   height: 47px;
   z-index: 11;
   padding: 10px 19px 0 35px;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-transform: translate3d(0px, 0px, 0px);
   -moz-transform: translate3d(0px, 0px, 0px);
   -ms-transform: translate3d(0px, 0px, 0px);
