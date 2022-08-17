@@ -305,7 +305,9 @@ embed, iframe, img, object, video {
 
 #logo {
   position: absolute;
-  left: 0px;
+  font-weight: 500;
+  letter-spacing: normal;
+  left: -10px;
   top: 159px;
   width: 130px;
   height: 47px;
