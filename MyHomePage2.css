@@ -306,19 +306,23 @@ embed, iframe, img, object, video {
 #logo {
   position: absolute;
   font-weight: 500;
-  letter-spacing: normal;
   left: -10px;
   top: 159px;
-  width: 130px;
-  height: 47px;
-  z-index: 11;
-  padding: 10px 19px 0 35px;
+  width: 100px;
+  height: 30px;
+  padding: 10px 19px 0px 35px;
   /* overflow: hidden; */
   -webkit-transform: translate3d(0px, 0px, 0px);
   -moz-transform: translate3d(0px, 0px, 0px);
   -ms-transform: translate3d(0px, 0px, 0px);
   -o-transform: translate3d(0px, 0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+  opacity: .5;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#logo:hover{
+  opacity: 1;
 }
 
 #logo-click {
