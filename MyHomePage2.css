@@ -84,10 +84,6 @@ span.fadeOut {
   color: rgb(152, 182, 230);
 }
 
-.about_name {
-  font-family: NanumBarunGothic, sans-serif;
-}
-
 a {
     color:rgb(255, 255, 255);
     -webkit-transition: color .35s ease-out;
@@ -232,8 +228,14 @@ li {
 
 #centertext {
   font-family: NanumBarunGothic, sans-serif;
-  font-size: 15px;
-  text-align: center;
+  /* font-size: 15px; */
+  /* text-align: center; */
+}
+
+.about_name {
+  font-family: NanumBarunGothic, sans-serif;
+  font-size: 20px;
+  width:300px;
 }
 
 #protitle {
@@ -329,10 +331,10 @@ embed, iframe, img, object, video {
 }
 
 .imoge {
-  left: 800px;
-  top: 210px;
+  left: 0px;
+  top: 100px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 70px;
   padding: 15px 25px;
   box-sizing: border-box;
   cursor: pointer;
