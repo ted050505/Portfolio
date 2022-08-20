@@ -196,12 +196,10 @@ li {
 }
 
 #wrapper {
-  /* background-color: rgb(128, 255, 159); */
   position: relative;
   text-align: left;
   width: 100%;
   margin: 100px auto 0;
-  overflow: hidden;
 }
 
 #container {
@@ -216,10 +214,25 @@ li {
 }
 
 .entry {
-  padding: 15px 0 0 0;
+  padding: 15px 0 50px 0;
   margin: 0;
   font-size: 14px;
   line-height: 25px;
+  position: relative;
+  top: 50px;
+}
+
+#favorite {
+  position: relative;
+  top: 50px;
+  left: 230px;
+  width: 770px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.myfavorite {
+  /* font-size: 19px; */
 }
 
 .postbox>div>iframe {
@@ -228,14 +241,21 @@ li {
 
 #centertext {
   font-family: NanumBarunGothic, sans-serif;
-  /* font-size: 15px; */
-  /* text-align: center; */
+  text-align: center;
+  width: 200px;
+  height: 100px;
 }
 
 .about_name {
   font-family: NanumBarunGothic, sans-serif;
-  font-size: 20px;
-  width:300px;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 130px;
+  left: 230px;
+  width: 150px;
+  height: 40px;
 }
 
 #protitle {
