@@ -390,8 +390,8 @@ embed, iframe, img, object, video {
 
 @media (max-width: 768px) {
   #conbox {
-    padding: 0 10px !important;
-    width: 20%;
+    padding: 0 60px !important;
+    width: 80%;
   }
 
   /* #logo-click {
