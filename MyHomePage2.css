@@ -399,6 +399,16 @@ embed, iframe, img, object, video {
     background-position: center;
   }
 
+  .imoge {
+    background-position: center;
+    width:180px;
+  }
+  #favorite {
+    text-align: center;
+    width:300px;
+    font-size: 5px;
+  }
+
   /* #logo-click {
     left: -30px;
   }
