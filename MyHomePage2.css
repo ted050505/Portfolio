@@ -394,6 +394,10 @@ embed, iframe, img, object, video {
 
 
 @media (max-width: 680px) {
+  body {
+    font-size: 1.0em;
+  }
+  
   #conbox {
     padding: 0 10px !important;
   }
