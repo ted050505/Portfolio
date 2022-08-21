@@ -401,7 +401,7 @@ embed, iframe, img, object, video {
 
   .imoge {
     background-position: center;
-    width:180px;
+    /* width:30%; */
   }
   #favorite {
     text-align: center;
@@ -409,43 +409,28 @@ embed, iframe, img, object, video {
     font-size: 5px;
   }
 
-  /* #logo-click {
-    left: -30px;
+  #logo-click {
+    left: -10px;
   }
 
   #logo {
-    left: -30px;
+    left: -10px;
+    width: 100%;
   }
 
   #show-menu {
     display: block;
   }
 
-  #sidebars.show #show-menu {
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-  }
-
-  #sidebars.black #side-move,
-  #sidebars.show #side-move {
-    -webkit-transform: translate3d(0px, -70px, 0px);
-    -moz-transform: translate3d(0px, -70px, 0px);
-    -ms-transform: translate3d(0px, -70px, 0px);
-    -o-transform: translate3d(0px, -70px, 0px);
-    transform: translate3d(0px, -70px, 0px);
-  }
-
   .side-con ul {
-    margin: 100px 15px 0;
-    line-height: 24px;
-    font-size: 11px;
+    /* margin: 0px 0px 0; */
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
   }
 
   .side-con li {
-    padding: 0 5px;
+    padding: 0 7px;
   }
 
   .entry {
@@ -454,5 +439,5 @@ embed, iframe, img, object, video {
 
   .post {
     padding: 0px 0 0 0;
-  } */
+  } 
 }
