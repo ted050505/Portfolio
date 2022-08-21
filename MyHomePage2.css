@@ -389,17 +389,12 @@ embed, iframe, img, object, video {
 
 
 @media (max-width: 768px) {
-  body {
-    /* font-size: 1.0em; */
-    padding: 0 10px !important;
-    width: 50%;
-  }
-  
   #conbox {
     padding: 0 10px !important;
+    width: 20%;
   }
 
-  #logo-click {
+  /* #logo-click {
     left: -30px;
   }
 
@@ -444,20 +439,5 @@ embed, iframe, img, object, video {
 
   .post {
     padding: 0px 0 0 0;
-  }
-
-
-  #side-move {
-    background-color: rgba(70,70,70,0.3);
-    /* box-shadow: 0px 12px 30px 0 rgba(0,0,0,.1) !important;*/
-  }
-
-  #books {
-    position: relative;
-    width: 220px;
-    top: 0;
-    right: auto;
-    left: 10px;
-    padding: 0 0 30px 0;
-  }
+  } */
 }
