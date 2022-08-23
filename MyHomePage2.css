@@ -394,6 +394,11 @@ embed, iframe, img, object, video {
   display: block;
 }
 
+#iframe_video {
+  width: 1000px;
+  height: 568px;
+}
+
 
 @media (max-width: 768px) {
   #conbox {
@@ -440,4 +445,8 @@ embed, iframe, img, object, video {
   #post {
     padding: 0px 0 0 0;
   } 
+
+  .video {
+    height: 20%;
+  }
 }
