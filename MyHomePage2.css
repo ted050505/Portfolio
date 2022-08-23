@@ -202,6 +202,7 @@ li {
   position: relative;
   margin: 0 auto;
   max-width: 1080px;
+  overflow: hidden;
 }
 
 #conbox {
@@ -396,8 +397,6 @@ embed, iframe, img, object, video {
 
 @media (max-width: 768px) {
   #conbox {
-    /* padding: 0 60px !important; */
-    /* width: 85%; */
     background-position: center;
   }
 
@@ -425,7 +424,6 @@ embed, iframe, img, object, video {
   }
 
   .side-con ul {
-    /* margin: 0px 0px 0; */
     line-height: 50px;
     text-align: center;
     font-size: 10px;
@@ -439,7 +437,7 @@ embed, iframe, img, object, video {
     margin: 0px 0 0 0;
   }
 
-  .post {
+  #post {
     padding: 0px 0 0 0;
   } 
 }
