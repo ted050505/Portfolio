@@ -194,15 +194,15 @@ li {
   text-align: left;
   width: 100%;
   margin: 100px auto 0;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #container {
   position: relative;
   margin: 0 auto;
   max-width: 1080px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #conbox {
@@ -411,7 +411,7 @@ embed, iframe, img, object, video {
 
   #favorite {
     text-align: center;
-    width:300px;
+    width: 60%;
     font-size: 5px;
   }
 
@@ -445,8 +445,4 @@ embed, iframe, img, object, video {
   #post {
     padding: 0px 0 0 0;
   } 
-
-  .video {
-    height: 20%;
-  }
 }
