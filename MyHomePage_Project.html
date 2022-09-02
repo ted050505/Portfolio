@@ -100,6 +100,60 @@
                     </div>
                 </div>
                 <div id="protitle">
+                    <h2 class="work_title">Time Lapse</h2>
+                    <br>
+                    <h5>Technical Director, Hardware Developer, Engineer</h5>
+                </div>
+                <div id="post">
+                    <div class="postbox">
+                        <h3>Interactive media installation | TeamWork </h3>
+                        <div class="video" style="padding-bottom: 56.3%;">
+                            <iframe id="iframe_video" src="https://youtu.be/TwLzb9ePtuA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="postbox">
+                        <h3>DESCRIPTION</h3>
+                        <div class="des">
+                            작품은 헤드폰과 헤드폰을 착용 함에 따른 LED Strip, Stepper 모터의 인터렉션 요소로 구성된다. 
+                            LED Strip에는 헤드폰 기울기 (Roll) 에 따른 빛의 움직임 변화가 표현되고, 특정 센서 값에서 스텝 모터가 구동하는 구성이다.
+                            <br>
+                            <br>
+                            좌대 위에 본 작품이 있으며, 관객은 헤드폰 거치대에 거치되어 있는 헤드폰을 착용하여 작품과 상호 작용 할 수 있다.
+                            1. 헤드폰 착용 시 작품 속 Led Strip 가운데에 불빛이 점등한다.
+                            2. 헤드폰 속에서는 미리 제작 된 사운드가 재생된다.
+                            3. 머리를 좌우 (Roll)로 기울이면 센서 값에 따라 led 불빛이 실시간으로 움직인다.
+                            4. led 불빛이 좌우 끝에 다다를 경우, 그에 해당하는 모터를 구동 하며 천천히 돌아간다.
+                            <br>
+                            <br>
+                            [개발과정]
+                            # 송신부 개발보드
+                            완성도를 위해 헤드폰 안에 배터리와 가속도-자이로 센서, 리밋 스위치를 넣고 봉합하였다. 리밋 스위치를 통해 착용 여부를 감지하고, 6축 IMU 센서를 통해 헤드폰의 Roll 값을 센싱한다. 센싱 받은 값은 RF (Radio Frequence) 433mhz 주파수 대역의 통신을 통해 데이터 값을 송신한다.
+                            <br>
+                            # 수신부 개발보드
+                            RF통신 모듈의 수신부로 받아 버퍼로 들어온 데이터 값은 string 타입으로 받아온다.
+                            이후, string 타입의 문자를 int 형으로 센싱 되는 범위를 정해주어야 하기 때문에, int 형 타입으로 형변환 시켜준다. Led 라이브러리는 FastLED 라이브러리를 이용했다. 총 30개의 led 개수를 사용했고, int형 타입의 데이터 값을 송신부 개발보드에서 값을 알맞게 처리해주는 과정을 거쳤기 때문에, 수신부 보드에서는 계산 처리 과정 없이 파싱했다.
+                            <br>
+                            1스텝 당 1.8도의 각도를 지원하는 12V 스텝 모터를 사용했다. 모터 드라이브는 1/16 분해능까지 가능한 A4988 모듈을 사용하고, 2개의 스텝 모터를 사용하기에 모터 드라이브도 2개를 사용했다.
+                            Led strip 의 동작하는 값이 좌측에 다다르면 좌측 모터가, 우측에 다다르면 우측 모터가 구동하도록 소스코드를 구성했다.
+                            <br>
+                            <br>
+                        </div>
+                        <h3>Details</h3>
+                        <ul>
+                            <div class="bio-des">
+                                <li>
+                                    Genre : Interactive media installation
+                                </li>
+                            </div>
+                        </ul>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div id="protitle">
                     <h2 class="work_title">Realtime Data Visualization</h2>
                     <br>
                     <h5>Director, Producer</h5>
