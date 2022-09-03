@@ -219,6 +219,17 @@ li {
   top: 50px;
 }
 
+#translate {
+  background-color: rgba(70,70,70,0.3);
+  position: relative;
+  top: 60px;
+  left: 230px;
+  width: 770px;
+  height: 100px;
+  border-radius: 20px;
+  text-align: center;
+}
+
 #favorite {
   background-color: rgba(70,70,70,0.3);
   position: relative;
