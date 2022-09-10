@@ -274,7 +274,8 @@ li {
 }
 
 .work_title {
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
   letter-spacing: 2px;
 }
 
@@ -401,6 +402,10 @@ embed, iframe, img, object, video {
   height: 568px;
 }
 
+.des {
+  color:rgb(255, 255, 255, 0.7);
+}
+
 #interactionLabTitle {
   position: absolute;
   width: 100%;
@@ -496,5 +501,9 @@ embed, iframe, img, object, video {
     margin: 70px 0 0 0;
     line-height: 25px;
     font-size: 13px;
+  }
+
+  .des {
+    color:rgb(255, 255, 255, 0.7);
   }
 }
