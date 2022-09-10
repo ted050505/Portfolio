@@ -457,6 +457,22 @@ embed, iframe, img, object, video {
     padding: 0 7px;
   }
 
+  #protitle {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .work_title{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .postbox h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
   .entry {
     margin: 0px 0 0 0;
   }
