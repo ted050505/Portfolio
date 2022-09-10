@@ -279,6 +279,7 @@ li {
 }
 
 .postbox {
+  position:relative;
   margin: 70px 0 0 0;
   line-height: 25px;
   font-size: 13px;
@@ -463,4 +464,9 @@ embed, iframe, img, object, video {
   #post {
     padding: 0px 0 0 0;
   } 
+
+  .video {
+    position: relative;
+    height: 380px;
+  }
 }
