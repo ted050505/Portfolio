@@ -467,11 +467,11 @@ embed, iframe, img, object, video {
 
   .video {
     position: relative;
-    height: 50px;
+    height: 60px;
   }
 
   #iframe_video {
-    width: 1000px;
+    width: 100%;
     height: 268px;
   }
 
@@ -479,6 +479,6 @@ embed, iframe, img, object, video {
     position:relative;
     margin: 70px 0 0 0;
     line-height: 25px;
-    font-size: 9px;
+    font-size: 13px;
   }
 }
