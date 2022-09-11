@@ -115,7 +115,7 @@ div {
   display: block;
 }
 
-header {
+#sidebars {
   background-color: rgba(70,70,70,0.3);
   position: fixed;
   width: 100%;
@@ -125,7 +125,8 @@ header {
   top: 0;
 }
 
-header a {
+#sidebars a {
+  /* color: rgba(0, 0, 0, 0.4); */
   color: rgba(255, 255, 255, 95);
   text-decoration: none;
 }
