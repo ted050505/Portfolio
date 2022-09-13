@@ -24,9 +24,13 @@
                 </div>
                 <div class="side-con">
                     <div class="menu-container">
-                        <ul class="mobile-nav">
+                        <!-- <ul class="mobile-nav">
+                            <input type="checkbox" id="check">
+                            <label for="check">
+                                <i class="fas fa-bars"></i>
+                            </label>
                             <li></li>
-                        </ul>
+                        </ul> -->
                         <ul id="menu-cm" class="menu">
                             <li id="menu-item-1" class="menu-item-type-1">
                                 <a href="MyHomePage_About.html">ABOUT</a>
@@ -46,6 +50,34 @@
         </div>
     </header>
     <div id="container">
+        <canvas id="canvas" width="300" height="300"></canvas>
+
+        <script type="importmap">
+            {
+                "imports": {
+                "three": "https://unpkg.com/three@0.141.0/build...",
+                "GLTFLoader" : "https://unpkg.com/three@0.141.0/examp..."
+                }
+            }
+        </script>
+        <script type="module">
+            import {GLDTFloader} from 'GLDFloader';
+            import * as THREE from 'three';
+            
+            let scene = new THREE.scene();
+            let renderer = new THREE.WebGLRenderer({
+                canvas : document.querySelector('#canvas')
+            });
+
+            let camera = new THREE.PerspectiveCamera(30, 1);
+
+            let loader = new GLTFLoader();
+            loader.load('data/3D Model/Car/scene.gltf', function(gltf){
+                scene.add(gltf.scene);
+                renderer.render(scene, camera);
+            });
+        </script>
+
         <h1 class="main_symbol">{ }</h1>
         <script src="./app.js"></script>
     </div>
