@@ -520,6 +520,11 @@ embed, iframe, img, object, video {
     color:rgb(255, 255, 255, 0.7);
   }
 
+  #bio-des-awards {
+    bottom: 0px;
+    left: 0px;
+  }
+
   #menu-cm {
     display:none;
   }
