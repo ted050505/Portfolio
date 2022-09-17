@@ -410,6 +410,13 @@ embed, iframe, img, object, video {
   display: block;
 }
 
+.img_award {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+}
+
 #iframe_video {
   width: 1000px;
   height: 568px;
