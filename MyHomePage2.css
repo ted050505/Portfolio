@@ -31,22 +31,9 @@ form {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.navbar__menu li a {
-  opacity: .8;
-  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.navbar__menu li a:hover {
-  opacity: 1;
-}
-
-
 .navbar__menu {
   margin: 0;
   opacity: 1;
-}
-
-.navbar__menu ul {
   display: block;
   list-style: none;
   font-weight: 700;
@@ -67,6 +54,15 @@ form {
   display: inline;
   padding: 0 10px;
   height: 100%;
+}
+
+.navbar__menu li a {
+  opacity: .8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navbar__menu li a:hover {
+  opacity: 1;
 }
 
 
