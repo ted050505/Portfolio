@@ -444,17 +444,15 @@ embed, iframe, img, object, video {
     font-size: 5px;
   }
 
-  #logo-click {
-    left: -10px;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  #logo {
-    left: -10px;
-    width: 100%;
-  }
-
-  #show-menu {
-    display: block;
+  .navbar__menu {
+    /* display:none; */
+    flex-direction: column;
+    align-items: center;
   }
 
   .navbar__menu ul {
@@ -465,6 +463,15 @@ embed, iframe, img, object, video {
 
   .navbar__menu li {
     padding: 0 7px;
+  }
+
+  #logo-click {
+    left: -10px;
+  }
+
+  #logo {
+    left: -10px;
+    width: 100%;
   }
 
   #protitle {
@@ -516,13 +523,4 @@ embed, iframe, img, object, video {
     bottom: 0px;
     left: 0px;
   }
-
-  /* .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  } */
-
-  /* .navbar__menu {
-      display:none;
-    } */
 }
