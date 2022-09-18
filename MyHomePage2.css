@@ -532,7 +532,12 @@ embed, iframe, img, object, video {
     left: 0px;
   }
 
-.navbar__menu {
-    display:none;
+  .navbar__menu {
+    flex-direction: column;
+    align-items: flex-start;
   }
+
+  /* .navbar__menu {
+      display:none;
+    } */
 }
