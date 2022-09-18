@@ -192,10 +192,10 @@ li {
 }
 
 #logo-click {
-  width: 110px;
-  height: 47px;
+  /* width: 110px;
+  height: 47px; */
   position: absolute;
-  left: 17px;
+  /* left: 80px; */
   top: 5px;
   z-index: 21;
 }
