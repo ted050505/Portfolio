@@ -196,15 +196,7 @@ li {
   width: 110px;
   height: 47px;
   position: absolute;
-<<<<<<< HEAD
-  left: 80px;
-=======
-  left: 17px;
->>>>>>> parent of 7138b8c (Update MyHomePage2.css)
-  top: 5px;
-  z-index: 21;
 }
-
 #wrapper {
   position: relative;
   text-align: left;
@@ -527,4 +519,11 @@ embed, iframe, img, object, video {
     bottom: 0px;
     left: 0px;
   }
+<<<<<<< HEAD
+=======
+
+.navbar__menu {
+    display:none;
+  }
+>>>>>>> parent of d584c37 (Update MyHomePage2.css)
 }
