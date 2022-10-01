@@ -14,7 +14,6 @@ html {
     display:block;
 }
 
-
 body,
 h1,
 h2,
@@ -175,8 +174,8 @@ li {
   font-weight: 500;
   left: -10px;
   top: 5px;
-  width: 100px;
-  height: 30px;
+  /* width: 100px;
+  height: 30px; */
   padding: 7px 25px 0px 30px;
   overflow: hidden;
   -webkit-transform: translate3d(0px, 0px, 0px);
@@ -197,11 +196,12 @@ li {
   height: 47px;
   position: absolute;
 }
+
 #wrapper {
   position: relative;
   text-align: left;
   width: 100%;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
   /* display: flex; */
   /* justify-content: center; */
 }
