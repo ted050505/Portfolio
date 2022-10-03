@@ -195,6 +195,12 @@ li {
   width: 110px;
   height: 47px;
   position: absolute;
+<<<<<<< HEAD
+=======
+  left: 17px;
+  top: 5px;
+  z-index: 21;
+>>>>>>> parent of 7138b8c (Update MyHomePage2.css)
 }
 
 #wrapper {
