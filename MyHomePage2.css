@@ -519,6 +519,7 @@ embed, iframe, img, object, video {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   #bio-des-awards {
     bottom: 0px;
     left: 0px;
@@ -526,6 +527,8 @@ embed, iframe, img, object, video {
 
 .navbar__menu {
 =======
+=======
+>>>>>>> parent of 4a5c0bb ([mobile] 모바일 환경에서 보여지는 CSS 처리)
   #menu-cm {
 >>>>>>> parent of 4a5c0bb ([mobile] 모바일 환경에서 보여지는 CSS 처리)
     display:none;
