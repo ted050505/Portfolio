@@ -518,16 +518,12 @@ embed, iframe, img, object, video {
     color:rgb(255, 255, 255, 0.7);
   }
 
-<<<<<<< HEAD
   #bio-des-awards {
     bottom: 0px;
     left: 0px;
   }
 
 .navbar__menu {
-=======
-  #menu-cm {
->>>>>>> parent of 4a5c0bb ([mobile] 모바일 환경에서 보여지는 CSS 처리)
     display:none;
   }
 }
