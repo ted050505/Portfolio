@@ -195,7 +195,7 @@ li {
   width: 110px;
   height: 47px;
   position: absolute;
-  /* left: 80px; */
+  left: 80px;
   top: 5px;
   z-index: 21;
 }
@@ -204,7 +204,7 @@ li {
   position: relative;
   text-align: left;
   width: 100%;
-  /* margin: 100px auto 0; */
+  margin: 100px auto 0;
   /* display: flex; */
   /* justify-content: center; */
 }
