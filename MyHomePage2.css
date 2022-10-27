@@ -517,7 +517,7 @@ embed, iframe, img, object, video {
   .des {
     color:rgb(255, 255, 255, 0.7);
   }
-/* 
+
 <<<<<<< HEAD
 <<<<<<< HEAD
   #bio-des-awards {
@@ -532,5 +532,5 @@ embed, iframe, img, object, video {
   #menu-cm {
 >>>>>>> parent of 4a5c0bb ([mobile] 모바일 환경에서 보여지는 CSS 처리)
     display:none;
-  } */
+  }
 }
