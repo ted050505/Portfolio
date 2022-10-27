@@ -104,7 +104,23 @@ div {
   display: block;
 }
 
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
 .navbar {
+  /* display: flex; */
   background-color: rgba(70,70,70,0.3);
   position: fixed;
   width: 100%;
@@ -115,7 +131,6 @@ div {
 }
 
 .navbar a {
-  /* color: rgba(0, 0, 0, 0.4); */
   color: rgba(255, 255, 255, 95);
   text-decoration: none;
 }
@@ -154,7 +169,6 @@ div {
   opacity: 1;
 }
 
-<<<<<<< HEAD
 #logo {
   position: absolute;
   font-weight: 500;
@@ -171,19 +185,8 @@ div {
   transform: translate3d(0px, 0px, 0px);
   opacity: .5;
   transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-=======
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
->>>>>>> parent of e4ef1dc (Revert "스크립트 헤드로 이동")
 }
 
-<<<<<<< HEAD
 #logo:hover {
   opacity: 1;
 }
@@ -195,11 +198,6 @@ ul {
   left: 17px;
   top: 5px;
   z-index: 21;
-=======
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
->>>>>>> parent of bd91652 ([CSS] 순서 변경)
 }
 
 #wrapper {
@@ -359,37 +357,6 @@ li {
 
 embed, iframe, img, object, video {
   max-width: 100%;
-}
-
-#logo {
-  position: absolute;
-  font-weight: 500;
-  left: -10px;
-  top: 5px;
-  width: 100px;
-  height: 30px;
-  padding: 7px 25px 0px 30px;
-  overflow: hidden;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -ms-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate3d(0px, 0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-  opacity: .5;
-  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-#logo:hover {
-  opacity: 1;
-}
-
-#logo-click {
-  width: 110px;
-  height: 47px;
-  position: absolute;
-  left: 17px;
-  top: 5px;
-  z-index: 21;
 }
 
 .imoge {
