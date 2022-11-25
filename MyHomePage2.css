@@ -449,6 +449,10 @@ embed, iframe, img, object, video {
     align-items: flex-start;
   }
 
+  .navbars__logo {
+    display: none;
+  }
+
   .navbar__menu {
     /* display:none; */
     flex-direction: column;
