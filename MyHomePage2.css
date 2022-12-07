@@ -12,6 +12,8 @@
   font-weight: bold;
   src: local(GrtskMega-Bold),
   url('font/GrtskMega-Bold.ttf') format('truetype'),
+  url('font/GrtskMega-Bold.eot') format('eot'),
+  url('font/GrtskMega-Bold.woff') format('woff'),
 }
 @font-face {
   font-family: Grtsk Mega;
@@ -19,6 +21,8 @@
   font-weight: 500;
   src: local(GrtskMega-Medium)
   url('font/GrtskMega-Medium.ttf') format('truetype'),
+  url('font/GrtskMega-Medium.eot') format('eot'),
+  url('font/GrtskMega-Medium.woff') format('woff'),
 }
 @font-face {
   font-family: Grtsk Mega;
@@ -26,6 +30,8 @@
   font-weight: normal;
   src: local(GrtskMega-Regular),
   url('font/Regular-Regular.ttf') format('truetype'),
+  url('font/GrtskMega-Regular.eot') format('eot'),
+  url('font/GrtskMega-Regular.woff') format('woff'),
 }
 
 html {
@@ -251,7 +257,7 @@ li {
 }
 
 #centertext {
-  font-family: NanumBarunGothic, sans-serif;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
   text-align: center;
   width: 200px;
   height: 100px;
@@ -299,7 +305,7 @@ li {
 .cls-1 {
   display: block;
   font-size: 13px;
-  font-family: NanumBarunGothic, sans-serif;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
   color : white;
 }
 .cls-2 {
