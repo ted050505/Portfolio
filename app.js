@@ -1,4 +1,4 @@
-const text = document.querySelector(".main_symbol");
+const text = document.querySelector(".main_theme");
 const strText = text.textContent;
 
 const splitText = strText.split("");

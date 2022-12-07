@@ -23,6 +23,7 @@
 @font-face {
   font-family: Grtsk Mega;
   font-style: normal;
+  font-weight: normal;
   src: local(GrtskMega-Regular),
   url('font/Regular-Regular.ttf') format('truetype'),
 }
@@ -49,6 +50,10 @@ form {
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.main_theme {
+  letter-spacing: 15px;
 }
 
 .navbar__menu {
@@ -90,6 +95,7 @@ h1 {
   color: white;
   font-size: 4rem;
   font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  
   text-align: center;
   line-height: 100vh;
 }
@@ -101,6 +107,7 @@ h2 {
   line-height: 42px;
   /* color: #1c1c1c; */
   font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -196,7 +203,7 @@ li {
   position: relative;
   text-align: left;
   width: 100%;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -313,7 +320,7 @@ li {
   font-family: NanumBarunGothic, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 15px;
+  /* font-size: 15px; */
   /* color: #111; */
   color: rgba(255,255,255,90);
   padding: 0 0 4px 0;
@@ -327,7 +334,8 @@ li {
 
 .bio-des {
   font-family: NanumBarunGothic, sans-serif;
-  font-weight: 350;
+  /* font-weight: 350; */
+  font-weight: 300;
   font-size: 13px;
   /* color: #111; */
   color: rgba(255,255,255,90);
