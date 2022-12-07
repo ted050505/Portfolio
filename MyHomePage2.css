@@ -59,7 +59,8 @@ form {
 }
 
 .main_theme {
-  letter-spacing: 15px;
+  font-size: 60px;
+  letter-spacing: 5px;
 }
 
 .navbar__menu {
@@ -101,7 +102,8 @@ h1 {
   color: white;
   font-size: 4rem;
   font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
-  
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
   text-align: center;
   line-height: 100vh;
 }
@@ -112,13 +114,13 @@ h2 {
   font-size: 32px;
   line-height: 42px;
   /* color: #1c1c1c; */
-  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   font-weight: normal;
   text-align: center;
 }
 
 h3 h4 h5 {
-  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-family:  NanumBarunGothic, sans-serif;
 }
 
 span {
@@ -160,7 +162,7 @@ a {
   body {
     color:rgb(255, 255, 255);
     /* color:#666; */
-    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+    font-family: NanumBarunGothic, sans-serif;
     font-weight: 300;
     background-color: #0c0c0c;
     /* background-color: #fefefe; */
@@ -257,7 +259,7 @@ li {
 }
 
 #centertext {
-  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   text-align: center;
   width: 200px;
   height: 100px;
@@ -304,8 +306,11 @@ li {
 
 .cls-1 {
   display: block;
-  font-size: 13px;
+  font-size: 1px;
   font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
   color : white;
 }
 .cls-2 {
