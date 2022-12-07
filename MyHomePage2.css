@@ -315,6 +315,10 @@ li {
 }
 .cls-2 {
   display: none;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
 }
 
 .des {
@@ -632,7 +636,11 @@ embed, iframe, img, object, video {
     padding: 3px 0px 0px 5px;
     font-size: 13px;
     /* font-family: NanumBarunGothic, sans-serif; */
-    font-family: 'Leon Sans', 'KoPubDotum', sans-serif;
+    /* font-family: 'Leon Sans', 'KoPubDotum', sans-serif; */
+    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
     color : white;
   }
 
