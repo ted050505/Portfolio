@@ -250,6 +250,11 @@ li {
 }
 
 .myfavorite {
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: bold;
+  opacity: 80%;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
   position: relative;
   top: 40px;
 }
@@ -259,7 +264,7 @@ li {
 }
 
 #centertext {
-  font-family: NanumBarunGothic, sans-serif;
+  /* font-family: NanumBarunGothic, sans-serif; */
   text-align: center;
   width: 200px;
   height: 100px;
