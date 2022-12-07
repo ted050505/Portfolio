@@ -190,6 +190,8 @@ li {
   text-align: -webkit-match-parent;
 }
 
+.tab { white-space: pre; }
+
 #wrapper {
   position: relative;
   text-align: left;
