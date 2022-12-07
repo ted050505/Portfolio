@@ -6,6 +6,26 @@
       url('font/NanumBarunGothic.eot') format('eot'),
       url('font/NanumBarunGothic.woff') format('woff');
 }
+@font-face {
+  font-family: Grtsk Mega;
+  font-style: normal;
+  font-weight: bold;
+  src: local(GrtskMega-Bold),
+  url('font/GrtskMega-Bold.ttf') format('truetype'),
+}
+@font-face {
+  font-family: Grtsk Mega;
+  font-style: normal;
+  font-weight: 500;
+  src: local(GrtskMega-Medium)
+  url('font/GrtskMega-Medium.ttf') format('truetype'),
+}
+@font-face {
+  font-family: Grtsk Mega;
+  font-style: normal;
+  src: local(GrtskMega-Regular),
+  url('font/Regular-Regular.ttf') format('truetype'),
+}
 
 html {
     margin:0;
@@ -69,7 +89,7 @@ form {
 h1 {
   color: white;
   font-size: 4rem;
-  font-family: NanumBarunGothic, sans-serif;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
   text-align: center;
   line-height: 100vh;
 }
@@ -80,12 +100,12 @@ h2 {
   font-size: 32px;
   line-height: 42px;
   /* color: #1c1c1c; */
-  font-family: NanumBarunGothic, sans-serif;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
   text-align: center;
 }
 
 h3 h4 h5 {
-  font-family: NanumBarunGothic, sans-serif;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
 }
 
 span {
@@ -127,7 +147,7 @@ a {
   body {
     color:rgb(255, 255, 255);
     /* color:#666; */
-    font-family: NanumBarunGothic, sans-serif;
+    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
     font-weight: 300;
     background-color: #0c0c0c;
     /* background-color: #fefefe; */
