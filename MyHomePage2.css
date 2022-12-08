@@ -2,9 +2,9 @@
   font-family: NanumBarunGothic;
   font-style: normal;
   src: local(NanumBarunGothic),
-      url('font/NanumBarunGothic.otf') format(‘opentype’),
-      url('font/NanumBarunGothic.eot') format('eot'),
-      url('font/NanumBarunGothic.woff') format('woff');
+      url('../font/NanumBarunGothic.otf') format(‘opentype’),
+      url('../font/NanumBarunGothic.eot') format('eot'),
+      url('../font/NanumBarunGothic.woff') format('woff');
 }
 @font-face {
   font-family: Grtsk Mega;
