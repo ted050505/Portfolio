@@ -14,6 +14,7 @@
   url('font/GrtskMega-Bold.ttf') format('truetype'),
   url('font/GrtskMega-Bold.eot') format('eot'),
   url('font/GrtskMega-Bold.woff') format('woff'),
+  url('font/GrtskMega-Bold.woff2') format('woff2'),
 }
 @font-face {
   font-family: Grtsk Mega;
@@ -23,6 +24,7 @@
   url('font/GrtskMega-Medium.ttf') format('truetype'),
   url('font/GrtskMega-Medium.eot') format('eot'),
   url('font/GrtskMega-Medium.woff') format('woff'),
+  url('font/GrtskMega-Medium.woff2') format('woff2'),
 }
 @font-face {
   font-family: Grtsk Mega;
@@ -32,6 +34,7 @@
   url('font/Regular-Regular.ttf') format('truetype'),
   url('font/GrtskMega-Regular.eot') format('eot'),
   url('font/GrtskMega-Regular.woff') format('woff'),
+  url('font/GrtskMega-Regular.woff2') format('woff2'),
 }
 
 html {
