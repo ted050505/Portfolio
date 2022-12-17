@@ -68,6 +68,11 @@ form {
 .main_theme {
   font-size: 60px;
   letter-spacing: 5px;
+  position: absolute;
+}
+
+#webgl-canvas {
+  position: absolute;
 }
 
 .navbar__menu {
