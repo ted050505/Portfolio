@@ -69,6 +69,7 @@ form {
   font-size: 60px;
   letter-spacing: 5px;
   position: absolute;
+  margin-left: 100px;
 }
 
 #webgl-canvas {
