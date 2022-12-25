@@ -511,7 +511,7 @@ embed, iframe, img, object, video {
   h1 {
     color: white;
     font-size: 4rem;
-    font-family: NanumBarunGothic, sans-serif;
+    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
     text-align: center;
     line-height: 100vh;
   }
