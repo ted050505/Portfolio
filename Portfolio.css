@@ -555,9 +555,17 @@ embed, iframe, img, object, video {
 
   #container {
     max-width: 400px;
+    text-align: center;
   }
   #conbox {
     background-position: center;
+  }
+
+  .main_theme {
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    margin-left: 10px;
   }
 
   .imoge {
