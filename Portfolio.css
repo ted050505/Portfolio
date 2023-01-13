@@ -553,10 +553,13 @@ embed, iframe, img, object, video {
     margin: 0px auto 0;
   }
 
+  #container {
+    max-width: 400px;
+  }
+
   #main_theme_div {
     max-width: 400px;
     text-align: center;
-    
   }
   
   #conbox {
