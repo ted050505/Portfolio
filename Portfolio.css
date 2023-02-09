@@ -12,38 +12,42 @@
   font-weight: bold;
   src: 
   /* local(GrtskMega-Bold), */
-  /* url('../fonts/GrtskMega-Bold.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Bold.ttf') format('truetype'),
   url('../fonts/GrtskMega-Bold.eot') format('eot'),
   url('../fonts/GrtskMega-Bold.woff') format('woff'),
-  url('../fonts/GrtskMega-Bold.woff2') format('woff2'), */
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Bold.woff2') format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff') format('woff'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff2') format('woff2'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff2') format('woff2'), */
 }
 @font-face {
   font-family: Grtsk Mega;
   font-weight: 500;
   src: 
   /* local(GrtskMega-Medium) */
-  /* url('../fonts/GrtskMega-Medium.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Medium.ttf') format('truetype'),
   url('../fonts/GrtskMega-Medium.eot') format('eot'),
   url('../fonts/GrtskMega-Medium.woff') format('woff'),
-  url('../fonts/GrtskMega-Medium.woff2') format('woff2'), */
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Medium.woff2') format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff') format('woff'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff2') format('woff2'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff2') format('woff2'), */
 }
 @font-face {
   font-family: Grtsk Mega;
   font-weight: normal;
   src: 
   /* local(GrtskMega-Regular), */
-  url('https://github.com/ted050505/Portfolio.git/fonts/Regular-Regular.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Regular.ttf') format('truetype'),
+  url('../fonts/GrtskMega-Regular.eot') format('eot'),
+  url('../fonts/GrtskMega-Regular.woff') format('woff'),
+  url('../fonts/GrtskMega-Regular.woff2') format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff') format('woff'),
-  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff2') format('woff2'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff2') format('woff2'), */
 }
 
 html {
