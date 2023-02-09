@@ -3,9 +3,9 @@
   font-style: normal;
   src: 
       /* local(NanumBarunGothic), */
-      url('fonts/NanumBarunGothic.otf') format(‘opentype’),
-      url('fonts/NanumBarunGothic.eot') format('eot'),
-      url('fonts/NanumBarunGothic.woff') format('woff');
+      url(/fonts/NanumBarunGothic.otf) format(‘opentype’),
+      url(/fonts/NanumBarunGothic.eot) format('eot'),
+      url(/fonts/NanumBarunGothic.woff) format('woff');
 }
 @font-face {
   font-family: Grtsk Mega;
