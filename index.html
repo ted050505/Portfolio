@@ -4,14 +4,19 @@
 <Head>
     <title>Jung Jun Hyeok</title>
     <link rel="stylesheet" href="Portfolio.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scaleable="yes">
 </Head>
 
 <body>
     <header>
         <nav class="navbar">
                 <div class="navbars__logo">
-                    <a id="logo-click" href="index.html"></a>
+                    <a id="logo-click" href="index.html" onclick="movepage()"></a>
+                    <script type="text/javascript">
+                        function movepage() {
+                            location.href = "/index.html";
+                        }
+                    </script>
                     <div id="logo">
                             <text class="cls-1">Jung Jun Hyeok</text>
                             <text class="cls-2">JUNG JUN HYEOK</text>

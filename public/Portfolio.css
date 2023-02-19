@@ -1,0 +1,748 @@
+@font-face {
+  font-family: NanumBarunGothic;
+  font-style: normal;
+  src: 
+      /* local(NanumBarunGothic), */
+      url(https://ted050505.github.io/Portfolio/fonts/NanumBarunGothic.otf) format(‘opentype’),
+      url(https://ted050505.github.io/Portfolio/fonts/NanumBarunGothic.eot) format('eot'),
+      url(https://ted050505.github.io/Portfolio/fonts/NanumBarunGothic.woff) format('woff');
+}
+@font-face {
+  font-family: Grtsk Mega;
+  font-weight: bold;
+  src: 
+  /* local(GrtskMega-Bold), */
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Bold.ttf) format('truetype'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Bold.eot) format('eot'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Bold.woff) format('woff'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Bold.woff2) format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.ttf') format('truetype'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.eot') format('eot'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff') format('woff'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff2') format('woff2'), */
+}
+@font-face {
+  font-family: Grtsk Mega;
+  font-weight: 500;
+  src: 
+  /* local(GrtskMega-Medium) */
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Medium.ttf) format('truetype'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Medium.eot) format('eot'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Medium.woff) format('woff'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Medium.woff2) format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.ttf') format('truetype'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.eot') format('eot'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff') format('woff'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff2') format('woff2'), */
+}
+@font-face {
+  font-family: Grtsk Mega;
+  font-weight: normal;
+  src: 
+  /* local(GrtskMega-Regular), */
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Regular.ttf) format('truetype'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Regular.eot) format('eot'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Regular.woff) format('woff'),
+  url(https://ted050505.github.io/Portfolio/fonts/GrtskMega-Regular.woff2) format('woff2'),
+  /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.ttf') format('truetype'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.eot') format('eot'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff') format('woff'),
+  url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff2') format('woff2'), */
+}
+
+html {
+    margin:0;
+    padding:0;
+    -webkit-text-size-adjust: 100%;
+    display:block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.main_theme {
+  font-size: 60px;
+  letter-spacing: 5px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+#webgl-canvas {
+  position: absolute;
+}
+
+.navbar__menu {
+  margin: 0;
+  opacity: 1;
+  display: block;
+  list-style: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 10px;
+  height: 47px;
+  line-height: 47px;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* margin: 153px auto 0; */
+  -webkit-padding-start: 0px !important;
+  text-align: center;
+  font-family: 'Leon Sans', 'KoPubDotum', sans-serif;
+}
+
+.navbar__menu li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px;
+  height: 100%;
+}
+
+.navbar__menu li a {
+  opacity: .8;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navbar__menu li a:hover {
+  opacity: 1;
+}
+
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
+  text-align: center;
+  line-height: 100vh;
+}
+
+h2 {
+  font-weight: 500;
+  padding-bottom: 2px;
+  font-size: 32px;
+  line-height: 42px;
+  /* color: #1c1c1c; */
+  font-family: NanumBarunGothic, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 h4 h5 {
+  font-family:  NanumBarunGothic, sans-serif;
+}
+
+span {
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+span.fade {
+  opacity: 1;
+}
+
+span.fadeOut {
+  opacity: 1;
+  transform: translateY(30px);
+  color: rgb(152, 182, 230);
+}
+
+a {
+    color:rgb(255, 255, 255);
+    -webkit-transition: color .35s ease-out;
+    -moz-transition: color .35s ease-out;
+    transition: color .35s ease-out;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #566fff;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #566fff;
+  }
+  
+  a:hover {
+    color: #000000;
+  }
+
+  body {
+    color:rgb(255, 255, 255);
+    /* color:#666; */
+    font-family: NanumBarunGothic, sans-serif;
+    font-weight: 300;
+    background-color: #0c0c0c;
+    /* background-color: #fefefe; */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+  display: block;
+}
+
+.navbar {
+  background-color: rgba(70,70,70,0.3);
+  position: fixed;
+  width: 100%;
+  height: 47px;
+  z-index: 900;
+  left: 0;
+  top: 0;
+}
+
+.navbar a {
+  /* color: rgba(0, 0, 0, 0.4); */
+  color: rgba(255, 255, 255, 95);
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.tab { white-space: pre; }
+
+#wrapper {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  margin: 50px auto 0;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1080px;
+  /* overflow: hidden; */
+  z-index: 2;
+}
+
+#conbox {
+  position: relative;
+  padding: 50px 40px 0;
+}
+
+.entry {
+  padding: 15px 0 50px 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 25px;
+  position: relative;
+  top: 50px;
+}
+
+#favorite {
+  background-color: rgba(70,70,70,0.3);
+  position: relative;
+  top: 60px;
+  left: 230px;
+  width: 770px;
+  height: 100px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.myfavorite {
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: bold;
+  opacity: 80%;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
+  position: relative;
+  top: 40px;
+}
+
+.postbox>div>iframe {
+    box-shadow: 2px 25px 40px 0 rgb(0 0 0 / 15%);
+}
+
+#centertext {
+  /* font-family: NanumBarunGothic, sans-serif; */
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+
+.about_name {
+  font-family: NanumBarunGothic, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 130px;
+  left: 230px;
+  width: 150px;
+  height: 40px;
+}
+
+.about_situation {
+  color: rgba(70, 70, 70, 1);
+  position: absolute;
+  top: 180px;
+  left: 240px;
+  width: 300px;
+}
+
+#protitle {
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.work_title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.postbox {
+  position:relative;
+  margin: 70px 0 0 0;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.cls-1 {
+  display: block;
+  font-size: 1px;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
+  color : white;
+}
+.cls-2 {
+  display: none;
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
+}
+
+.des {
+  font-family: NanumBarunGothic, sans-serif;
+}
+
+.bio {
+  margin: 50px 0 0 0;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.bio>h3 {
+  font-family: NanumBarunGothic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* font-size: 15px; */
+  /* color: #111; */
+  color: rgba(255,255,255,90);
+  padding: 0 0 4px 0;
+  text-transform: uppercase;
+}
+
+.bio-des-div {
+  width:350px;
+  height:100px;
+}
+
+.bio-des {
+  font-family: NanumBarunGothic, sans-serif;
+  /* font-weight: 350; */
+  font-weight: 300;
+  font-size: 13px;
+  /* color: #111; */
+  color: rgba(255,255,255,90);
+  padding: 0 0 4px 0;
+  text-transform: uppercase;
+}
+
+#bio-des-awards {
+  position:relative;
+  /* width:350px;
+  height:67px;  */
+  bottom:80px;
+  left: 400px;
+}
+
+.bio-contact {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.video {
+  position: relative;
+  height: 0;
+}
+
+embed, iframe, img, object, video {
+  max-width: 100%;
+}
+
+#logo {
+  position: absolute;
+  font-weight: 500;
+  left: -10px;
+  top: 5px;
+  width: 100px;
+  height: 30px;
+  padding: 7px 25px 0px 30px;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  opacity: .5;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#logo:hover {
+  opacity: 1;
+}
+
+#logo-click {
+  width: 110px;
+  height: 47px;
+  position: absolute;
+  left: 17px;
+  top: 5px;
+  z-index: 21;
+}
+
+.imoge {
+  left: 0px;
+  top: 100px;
+  display: inline-block;
+  border-radius: 70px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  opacity: 0.3;
+  transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  position: absolute;
+}
+
+.imoge:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
+::selection {
+  background: #5b81ff;
+  color: #fff;
+}
+
+#theCanvas {
+  width: 1000px;
+  margin: auto;
+  border: 3px solid black;
+  display: block;
+}
+
+.img_award {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  /* z-index: 2; */
+  border: 13px;
+  border-radius: 7px;
+  top: -40px;
+  right: -899px;
+}
+
+#iframe_video {
+  width: 1000px;
+  height: 568px;
+}
+
+.des {
+  color:rgb(255, 255, 255, 0.7);
+}
+
+#interactionLabTitle {
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  /* top: 50px; */
+  z-index: 1;
+}
+
+#interactionLabTitle h2 {
+  font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+  text-align: center;
+  line-height:500px;
+  font-size: 400px;
+  color:rgba(255,255,255,0.9);
+  overflow: auto;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+    text-align: center;
+    line-height: 100vh;
+  }
+  
+  h2 {
+    font-weight: 500;
+    padding-bottom: 2px;
+    font-size: 32px;
+    line-height: 42px;
+    /* color: #1c1c1c; */
+    font-family: NanumBarunGothic, sans-serif;
+    text-align: center;
+  }
+  
+  h3 h4 h5 {
+    font-family: NanumBarunGothic, sans-serif;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  
+  li {
+    font-size: 11px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+
+  #wrapper {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin: 0px auto 0;
+  }
+
+  #container {
+    max-width: 400px;
+  }
+
+  #main_theme_div {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  #conbox {
+    background-position: center;
+  }
+
+  .main_theme {
+    font-size: 25px;
+    letter-spacing: 0px;
+    margin-left: 0px;
+    line-height: 30px;
+    position: absolute;
+    width: 339px;
+    height: 30px;
+    left: 26px;
+    top: 407px;
+    font-style: normal;
+    font-weight: 600; 
+  }
+
+  .imoge {
+    background-position: center;
+    width: 40%;
+    border-radius: 50px;
+  }
+
+  .about_name {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 120px;
+    left: 115px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .about_situation {
+    font-size: 10px;
+    color: rgba(70, 70, 70, 1);
+    position: absolute;
+    top: 160px;
+    left: 107px;
+    width: 300px;
+  }
+
+  #centertext {
+    width: 200px;
+    height: 50px;
+  }
+
+  #favorite {
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    font-size: 5px;
+    position: relative;
+    top: 80px;
+    left: 130px;
+    border-radius: 11px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px;
+  }
+
+  .myfavorite {
+    position: relative;
+    top: 20px;
+  }
+
+  .navbar {
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbars__logo {
+    width: 30px;
+  }
+
+  #logo-click {
+    width: 75px;
+  }
+
+  .navbar__menu {
+    display:none;
+  }
+
+  .navbar__menu ul {
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .navbar__menu li {
+    padding: 0 7px;
+  }
+
+  #logo-click {
+    left: -10px;
+  }
+
+  #logo {
+    left: 15px;
+    top: 13px;
+    width: 100px;
+    height: 100%;
+    border-style: none;
+    padding: 0px 0px 0px 0px;
+    overflow: visible;
+  }
+
+  .cls-1 {
+    display: none;
+  }
+  .cls-2 {
+    display: block;
+    padding: 3px 0px 0px 5px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: "wdth" 1000,"wght" 700,"slnt" 0;
+    color : white;
+
+    position: absolute;
+    width: 87px;
+    height: 48px;
+    left: 8px;
+    top: 7px;
+  }
+
+  #protitle {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .work_title{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .postbox h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .entry {
+    margin: 0px 0 0 0;
+  }
+
+  #post {
+    padding: 0px 0 0 0;
+  } 
+
+  .video {
+    position: relative;
+    height: 60px;
+  }
+
+  #iframe_video {
+    width: 100%;
+    height: 268px;
+  }
+
+  .postbox {
+    position:relative;
+    margin: 70px 0 0 0;
+    line-height: 25px;
+    font-size: 13px;
+  }
+
+  .des {
+    color:rgb(255, 255, 255, 0.7);
+  }
+
+  #bio-des-awards {
+    bottom: 0px;
+    left: 0px;
+  }
+}
