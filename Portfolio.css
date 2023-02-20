@@ -119,6 +119,10 @@ form {
   opacity: 1;
 }
 
+.navbar__toogleBtn {
+  display: none;
+}
+
 
 h1 {
   color: white;
@@ -570,10 +574,6 @@ embed, iframe, img, object, video {
     background-position: center;
   }
 
-  .navbar__toogleBtn {
-    position: absolute;
-    right: 32px;
-  }
 
   .main_theme {
     font-size: 25px;
@@ -641,7 +641,8 @@ embed, iframe, img, object, video {
   .navbar {
     /* display: none; */
     /* background-color: rgba(0, 0, 0, 0); */
-    background-color: rgba(70,70,70,0.7);
+    /* background-color: rgba(70,70,70,0.7); */
+    background-color: rgba(70,70,70,0.0);
     position: fixed;
     width: 100%;
     height: 100%;
@@ -659,14 +660,19 @@ embed, iframe, img, object, video {
   }
 
   .navbar__menu {
-    display: flex;
+    display: none;
     position: absolute;
     flex-direction: column;
+    letter-spacing: 0px;
     width: 571px;
-    height: 320px;
-    left: 40px;
+    height: 300px;
+    left: 30px;
     top: 150px;
     text-align: left;
+  }
+
+  .navbar__menu.active {
+    display: flex;
   }
 
   .navbar__menu ul {
@@ -677,6 +683,20 @@ embed, iframe, img, object, video {
   .navbar__menu li {
     padding: 0 7px;
     font-family: Grtsk Mega, NanumBarunGothic, sans-serif;
+    font-weight: 630;
+    font-size: 20px;
+  }
+
+  .navbar__toogleBtn {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 32px;
+  }
+
+  .navbar__toogleBtn i {
+    color:white;
+    opacity: 0.5;
     font-size: 25px;
   }
 
