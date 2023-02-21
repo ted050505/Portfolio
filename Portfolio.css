@@ -83,6 +83,10 @@ form {
 
 #webgl-canvas {
   position: absolute;
+  -webkit-filter:blur(0px);
+  -webkit-filter:opacity(80%);
+  filter:opacity(80%);
+  filter:blur(0px);
 }
 
 .navbar__menu {
@@ -232,6 +236,11 @@ li {
 }
 
 .tab { white-space: pre; }
+
+.navbar__toggleBtn,
+.navbar__toggleBtn__cancel {
+  display: none;
+}
 
 #wrapper {
   position: relative;
@@ -677,7 +686,10 @@ embed, iframe, img, object, video {
 
   #webgl-canvas.active,
   .main_theme.active {
+    -webkit-filter:blur(15px);
     filter:blur(15px);
+    -webkit-transition: 0.35s ease-in-out;
+    transition:  0.35s ease-in-out;
   }
 
   .navbar__menu ul {
@@ -692,17 +704,38 @@ embed, iframe, img, object, video {
     font-size: 20px;
   }
 
-  .navbar__toogleBtn {
+  .navbar__toggleBtn {
     display: block;
     position: absolute;
     top: 30px;
     right: 32px;
   }
 
-  .navbar__toogleBtn i {
+  .navbar__toggleBtn i {
     color:white;
     opacity: 0.5;
     font-size: 25px;
+  }
+
+  .navbar__toggleBtn.active {
+    display: none;
+  }
+
+  .navbar__toggleBtn__cancel {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 32px;
+  }
+
+  .navbar__toggleBtn__cancel i {
+    color:white;
+    opacity: 0.5;
+    font-size: 25px;
+  }
+
+  .navbar__toggleBtn__cancel.active {
+    display: block;
   }
 
   #logo-click {
