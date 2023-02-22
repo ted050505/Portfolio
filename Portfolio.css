@@ -2,7 +2,7 @@
   font-family: NanumBarunGothic;
   font-style: normal;
   src: 
-      /* local(NanumBarunGothic), */
+      local(NanumBarunGothic),
       url(fonts/NanumBarunGothic.otf) format(‘opentype’),
       url(fonts/NanumBarunGothic.eot) format('eot'),
       url(fonts/NanumBarunGothic.woff) format('woff');
@@ -11,7 +11,7 @@
   font-family: Grtsk Mega;
   font-weight: bold;
   src: 
-  /* local(GrtskMega-Bold), */
+  local(GrtskMega-Bold),
   url(fonts/GrtskMega-Bold.eot) format('eot'),
   url(fonts/GrtskMega-Bold.woff) format('woff'),
   url(fonts/GrtskMega-Bold.woff2) format('woff2'),
@@ -25,7 +25,7 @@
   font-family: Grtsk Mega;
   font-weight: 500;
   src: 
-  /* local(GrtskMega-Medium) */
+  local(GrtskMega-Medium)
   url(fonts/GrtskMega-Medium.eot) format('eot'),
   url(fonts/GrtskMega-Medium.woff) format('woff'),
   url(fonts/GrtskMega-Medium.woff2) format('woff2'),
@@ -39,7 +39,7 @@
   font-family: Grtsk Mega;
   font-weight: normal;
   src: 
-  /* local(GrtskMega-Regular), */
+  local(GrtskMega-Regular),
   url(fonts/GrtskMega-Regular.eot) format('eot'),
   url(fonts/GrtskMega-Regular.woff) format('woff'),
   url(fonts/GrtskMega-Regular.woff2) format('woff2'),
