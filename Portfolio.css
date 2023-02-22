@@ -3,19 +3,19 @@
   font-style: normal;
   src: 
       /* local(NanumBarunGothic), */
-      url('../Portfolio/fonts/NanumBarunGothic.otf') format(‘opentype’),
-      url('../Portfolio/fonts/NanumBarunGothic.eot') format('eot'),
-      url('../Portfolio/fonts/NanumBarunGothic.woff') format('woff');
+      url(../Portfolio/fonts/NanumBarunGothic.otf) format(‘opentype’),
+      url(../Portfolio/fonts/NanumBarunGothic.eot) format('eot'),
+      url(../Portfolio/fonts/NanumBarunGothic.woff) format('woff');
 }
 @font-face {
   font-family: Grtsk Mega;
   font-weight: bold;
   src: 
   /* local(GrtskMega-Bold), */
-  url('../Portfolio/fonts/GrtskMega-Bold.ttf') format('truetype'),
-  url('../Portfolio/fonts/GrtskMega-Bold.eot') format('eot'),
-  url('../Portfolio/fonts/GrtskMega-Bold.woff') format('woff'),
-  url('../Portfolio/fonts/GrtskMega-Bold.woff2') format('woff2'),
+  url(../Portfolio/fonts/GrtskMega-Bold.ttf) format('truetype'),
+  url(../Portfolio/fonts/GrtskMega-Bold.eot) format('eot'),
+  url(../Portfolio/fonts/GrtskMega-Bold.woff) format('woff'),
+  url(../Portfolio/fonts/GrtskMega-Bold.woff2) format('woff2'),
   /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Bold.woff') format('woff'),
@@ -26,10 +26,10 @@
   font-weight: 500;
   src: 
   /* local(GrtskMega-Medium) */
-  url('../../Portfolio/fonts/GrtskMega-Medium.ttf') format('truetype'),
-  url('../Portfolio/fonts/GrtskMega-Medium.eot') format('eot'),
-  url('../Portfolio/fonts/GrtskMega-Medium.woff') format('woff'),
-  url('../Portfolio/fonts/GrtskMega-Medium.woff2') format('woff2'),
+  url(../Portfolio/fonts/GrtskMega-Medium.ttf) format('truetype'),
+  url(../Portfolio/fonts/GrtskMega-Medium.eot) format('eot'),
+  url(../Portfolio/fonts/GrtskMega-Medium.woff) format('woff'),
+  url(../Portfolio/fonts/GrtskMega-Medium.woff2) format('woff2'),
   /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Medium.woff') format('woff'),
@@ -40,10 +40,10 @@
   font-weight: normal;
   src: 
   /* local(GrtskMega-Regular), */
-  url('../Portfolio/fonts/GrtskMega-Regular.ttf') format('truetype'),
-  url('../Portfolio/fonts/GrtskMega-Regular.eot') format('eot'),
-  url('../Portfolio/fonts/GrtskMega-Regular.woff') format('woff'),
-  url('../Portfolio/fonts/GrtskMega-Regular.woff2') format('woff2'),
+  url(../Portfolio/fonts/GrtskMega-Regular.ttf) format('truetype'),
+  url(../Portfolio/fonts/GrtskMega-Regular.eot) format('eot'),
+  url(../Portfolio/fonts/GrtskMega-Regular.woff) format('woff'),
+  url(../Portfolio/fonts/GrtskMega-Regular.woff2) format('woff2'),
   /* url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.ttf') format('truetype'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.eot') format('eot'),
   url('https://github.com/ted050505/Portfolio.git/fonts/GrtskMega-Regular.woff') format('woff'),
