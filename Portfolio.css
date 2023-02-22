@@ -594,9 +594,9 @@ embed, iframe, img, object, video {
     margin-left: 0px;
     line-height: 30px;
     position: absolute;
-    width: 339px;
+    width: 400px;
     height: 30px;
-    left: 26px;
+    /* left: 26px; */
     top: 407px;
     font-style: normal;
     font-weight: 600; 

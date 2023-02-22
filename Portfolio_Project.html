@@ -12,13 +12,18 @@
     <script type="module" src="./app.js"></script>
     <header>
         <nav class="navbar">
-                <div class="navbars__logo">
-                    <a id="logo-click" href="index.html"></a>
-                    <div id="logo">
-                            <text class="cls-1">Jung Jun Hyeok</text>
-                            <text class="cls-2">J J H</text>
-                    </div>
+            <div class="navbars__logo">
+                <a id="logo-click" href="index.html" onclick="movepage()"></a>
+                <script type="text/javascript">
+                    function movepage() {
+                        location.href = "/index.html";
+                    }
+                </script>
+                <div id="logo">
+                        <text class="cls-1">Jung Jun Hyeok</text>
+                        <text class="cls-2">JUNG JUN HYEOK</text>
                 </div>
+            </div>
                 <ul class="navbar__menu">
                     <li id="menu-item-1" class="menu-item-type-1">
                         <a href="Portfolio_About.html">ABOUT</a>
