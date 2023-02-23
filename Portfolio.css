@@ -610,7 +610,7 @@ embed, iframe, img, object, video {
   .imoge {
     background-position: center;
     /* width: 40%; */
-    width: 220px;
+    width: 27%;
     border-radius: 50px;
   }
 
@@ -623,15 +623,21 @@ embed, iframe, img, object, video {
     left: 115px; */
     width: 150px;
     height: 40px;
+    left: 150px;
   }
 
   .about_situation {
     font-size: 10px;
     color: rgba(70, 70, 70, 1);
     position: absolute;
-    top: 160px;
-    left: 107px;
+    top: 167px;
+    left: 140px;
     width: 300px;
+  }
+
+  #main_profile {
+    width: 600px;
+    height: 180px;
   }
 
   #centertext {
@@ -641,12 +647,12 @@ embed, iframe, img, object, video {
 
   #favorite {
     text-align: center;
-    width: 60%;
+    width: 70%;
     height: 50px;
     font-size: 5px;
     position: relative;
-    top: 80px;
-    left: 130px;
+    top: 90px;
+    left: 160px;
     border-radius: 11px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px;
@@ -799,6 +805,7 @@ embed, iframe, img, object, video {
 
   .entry {
     margin: 0px 0 0 0;
+    top: 0px;
   }
 
   #post {
