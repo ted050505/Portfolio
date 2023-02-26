@@ -77,7 +77,7 @@ form {
 .main_theme {
   font-size: 60px;
   letter-spacing: 5px;
-  position: absolute;
+  position: relative;
   margin-left: 100px;
 }
 
@@ -260,7 +260,12 @@ li {
   z-index: 2;
 }
 
+#main_theme_div {
+  text-align: center;
+}
+
 #conbox {
+  box-sizing: border-box;
   position: relative;
   padding: 50px 40px 0;
 }
@@ -589,7 +594,7 @@ embed, iframe, img, object, video {
   #conbox {
     background-position: center;
     padding: 50px 40px 0;
-    top: 30px;
+    top: 50px;
   }
 
   .main_theme {
@@ -608,60 +613,72 @@ embed, iframe, img, object, video {
     text-align: center;
   }
 
-  .imoge {
-    background-position: center;
-    /* width: 40%; */
-    width: 27%;
-    border-radius: 50px;
+  #main_profile {
+    /* overflow: hidden; */
+    height: 170px;
+    padding-top: 30px;
+  }
+
+  #centertext {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 50px;
+    /* left: 195px; */
+    padding: 15px 0;
+    overflow: hidden;
+    text-align: left;
   }
 
   .about_name {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
-    /* position: absolute; */
-    /* top: 120px;
-    left: 115px; */
     width: 150px;
     height: 40px;
-    left: 150px;
+    top: auto;
+    left: auto;
+    text-align: left;
   }
 
   .about_situation {
     font-size: 10px;
     color: rgba(70, 70, 70, 1);
     position: absolute;
-    top: 167px;
-    left: 140px;
+    /* top: 167px; */
+    /* left: 140px; */
     width: 300px;
+    top: auto;
+    left: auto;
   }
 
-  #main_profile {
-    width: 600px;
-    height: 180px;
-  }
-
-  #centertext {
-    width: 200px;
-    height: 50px;
+  .imoge {
+    /* background-position: center; */
+    position: absolute;
+    /* width: 195px; */
+    float: left;
+    width: 35%;
+    top: 80px;
+    left: 0px;
+    border-radius: 50px;
   }
 
   #favorite {
+    float: right;
     text-align: center;
-    width: 70%;
-    height: 50px;
-    font-size: 5px;
-    position: relative;
-    top: 90px;
-    left: 160px;
-    border-radius: 11px;
+    /* font-size: 13px; */
+    width: 65%;
+    height: 60%;
+    position: static;
+    top: auto;
+    left: auto;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px;
   }
 
   .myfavorite {
     position: relative;
-    top: 20px;
+    top: 40px;
   }
 
   .navbar {
