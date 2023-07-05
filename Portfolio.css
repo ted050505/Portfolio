@@ -287,7 +287,8 @@ li {
   font-size: 15px;
   font-style: normal;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
@@ -296,7 +297,7 @@ li {
 .footer-text {
   opacity: .5;
   margin: 0 auto;
-  font-size: small;
+  /* font-size: small; */
   color: rgba(255, 255, 255, 50);
 }
 
