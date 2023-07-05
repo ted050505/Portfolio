@@ -284,7 +284,10 @@ li {
 
 #footer {
   font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: normal;
   text-align: center;
+  width: 100px;
 }
 
 .footer-text {
