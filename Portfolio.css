@@ -283,10 +283,11 @@ li {
 }
 
 #footer {
+  font-family: Helvetica, sans-serif;
   text-align: center;
 }
 
-.footer-inner {
+.footer-text {
   opacity: .5;
   margin: 0 auto;
   padding: 50px;
