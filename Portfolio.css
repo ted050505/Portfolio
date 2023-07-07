@@ -123,10 +123,13 @@ form {
   opacity: 1;
 }
 
+.navbar__items {
+  width: 100%;
+}
+
 .navbar__toogleBtn {
   display: none;
 }
-
 
 h1 {
   color: white;
