@@ -551,6 +551,7 @@ embed, iframe, img, object, video {
 #project_image {
   width: 1000px;
   height: 568px;
+  object-fit:cover;
 }
 
 .des {
