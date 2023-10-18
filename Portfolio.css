@@ -548,6 +548,11 @@ embed, iframe, img, object, video {
   height: 568px;
 }
 
+#project_image {
+  width: 1000px;
+  height: 568px;
+}
+
 .des {
   color:rgb(255, 255, 255, 0.7);
 }
